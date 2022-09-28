@@ -16,3 +16,29 @@ header{
     font-size: 60px;
     font-weight: bold;
 }
+#header p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+ a{
+    text-decoration: none;
+    background-color: rgba(255, 77, 0, 0.849);
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.half-div p{
+    width: 100%;
+    display: inline-block;
+}
+.amount{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+hr{
+    color: rgb(207, 196, 255);
+}
