@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,200&display=swap');
 *{
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
 }
 header{
-    background:linear-gradient(0deg,rgba(15, 15, 15, 0.205),rgba(240, 234, 234, 0.03)) ,url(./images/donation3.jpg);
+    background:linear-gradient(rgba(24, 23, 23, 0.219),rgba(18, 17, 17, 0.922)) ,url(./images/donation3.jpg);
     background-size: cover;
     height: 100vh;
     color: #fff;
@@ -21,24 +23,51 @@ header{
     font-weight: bold;
     margin-bottom: 40px;
 }
+
  a{
     text-decoration: none;
-    background-color: rgba(255, 77, 0, 0.849);
+    background-color: tomato;
     color: #fff;
     padding: 10px 15px;
     border-radius: 5px;
     font-size: 18px;
 }
-.half-div p{
+.half-div{
     width: 100%;
-    display: inline-block;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 .amount{
     text-align: center;
     align-items: center;
     justify-content: center;
     display: flex;
+    color: rgba(128, 128, 128, 0.829);
 }
-hr{
-    color: rgb(207, 196, 255);
+
+.donate-today{
+    text-align: center;
+    padding: 100px;
+}
+.donate-today h1{
+    padding: 30px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.str-btn{
+    border:2px solid tomato;
+    background-color:rgba(242, 53, 19, 0.162) ;
+    border-radius: 5px;
+    padding: 50px;
+    color:tomato;
+}
+.half-div p{
+    padding: 30px;
+    margin: 20px;
+    font-size: 25px;
+}
+.donate-now{
+margin-top: 10px;
 }
