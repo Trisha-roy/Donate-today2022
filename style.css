@@ -39,17 +39,19 @@ header{
     justify-content: center;
     align-items: center;
 }
-.amount{
+.amount  {
     text-align: center;
     align-items: center;
     justify-content: center;
     display: flex;
     color: rgba(128, 128, 128, 0.829);
+    
 }
 
 .donate-today{
     text-align: center;
     padding: 100px;
+    
 }
 .donate-today h1{
     padding: 30px;
@@ -68,16 +70,56 @@ header{
     margin: 20px;
     font-size: 25px;
 }
+
+.line-brk{
+    width: 50%;
+    margin:auto;
+}
 .donate-now{
-margin-top: 10px;
-}
-hr{
-    width: 30%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     text-align: center;
-    margin-left: 30%;
-    padding-bottom: 20px;
-    height: 1px;
+    justify-content: center;
+   display: inline;
+    align-items: center;
+    padding: auto;
+    margin: auto;
+    position: absolute;
 }
+.donate-plan{
+    text-align: center;
+    padding: 100px;
+    
+}
+.donate-plan h1{
+    padding: 30px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 20%;
+    border-radius: 5px;
+    background-color: rgba(57, 241, 180, 0.315);
+    text-align: left;
+    margin: 10px;
+  }
+  .card img{
+    margin: 16px;
+  }
+  .container {
+    padding: 10px;
+    margin: 10px;
+  }
+  .container p{
+    font-size: 13px;
+
+  }
+  .half-div1{
+    display: flex;
+  }
+  .half-div2{
+    display: flex;
+  }
+  .half-div2 img{
+    width: 100%;
+    margin: auto;
+  }
