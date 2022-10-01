@@ -118,8 +118,16 @@ header{
   }
   .half-div2{
     display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  .half-div2 p{
+    padding-bottom: 20px;
   }
   .half-div2 img{
     width: 100%;
     margin: auto;
+    height: 300px;
+   
   }
